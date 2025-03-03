@@ -461,3 +461,43 @@ html {
     font-size: 1.1rem;
     font-weight: 480;
 }
+
+/*Traducir idioma*/
+
+.l__items {
+    position: fixed;
+    bottom: 5px;
+    right: 30px;
+    display: flex;
+}
+
+.p__item {
+    display: flex; 
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    color: #333;
+    font-size: 1.40rem;
+    border: 2px solid #c5b8b1;
+    border-radius: 10px;
+    background-color: #c5b8b1;
+    padding: 7px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    margin: 15px;
+
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight: 480;
+}
+
+.lenguage__item {
+    margin-right: 5px;
+}
+
+.flag {
+    width: 35px;
+}
