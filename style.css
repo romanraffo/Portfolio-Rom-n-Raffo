@@ -135,7 +135,7 @@ html {
     border: 2px solid #E7473C;
     border-radius: 25px;
     padding: 10px;
-    transition: 2s;
+    transition: 0.5s;
     
     text-decoration: none;
     color: #E7473C;
@@ -175,8 +175,8 @@ html {
 
 
 .box {
-    width: 400px; /* Ajusta según necesites */
-    height: 300px; /* Ajusta según necesites */
+    width: 400px; 
+    height: 300px; 
     background-color: #cfc3bc;
     border-radius: 30px;
     overflow: hidden;
@@ -186,6 +186,7 @@ html {
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 0.9rem;
+    color: #333;
 }
 
 .box:hover {
@@ -194,7 +195,7 @@ html {
 }
 
 .box__image {
-    flex: 1; /* Ocupa la mitad superior */
+    flex: 1; 
 }
 
 .box__image img {
@@ -204,12 +205,17 @@ html {
 }
 
 .box__text {
-    flex: 1; /* Ocupa la mitad inferior */
+    flex: 1; 
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     text-align: center;
+}
+
+.box-link {
+    text-decoration: none; 
+    color: inherit; 
 }
 
 /* sobre mí*/
@@ -245,10 +251,6 @@ html {
     margin-top: 15px;
 }
 
-.div5__hero3{
-    
-}
-
 .resaltado_sobre_mi{
     font-family: "Lexend Deca", serif;
     font-optical-sizing: auto;
@@ -259,14 +261,25 @@ html {
     margin-bottom: 5px;
 }
 
-.img_sobremi{
+.div5__hero3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra mejor la imagen */
+}
+
+.img_sobremi {
     min-width: 200px;
-    margin: 10px;
     height: 200px;
     object-fit: cover;
     border-radius: 20px;
+    border: 2px solid rgb(168, 67, 191); /* Usa tu color principal en vez de negro */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    border: 1px solid black
+.img_sobremi:hover {
+    transform: scale(1.02); /* Hace que la imagen crezca un poco al pasar el mouse */
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3); /* Refuerza la sombra en hover */
 }
 
 /* habilidades y tecnologia*/
@@ -466,9 +479,10 @@ html {
 
 .l__items {
     position: fixed;
-    bottom: 5px;
+    bottom: 20px;
     right: 30px;
     display: flex;
+    z-index: 100;
 }
 
 .p__item {
