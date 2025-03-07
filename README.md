@@ -1,4 +1,4 @@
-## Portfolio Román Rafo
+## Portfolio Román Raffo
 
 - Sitio web sobre mi.
 
@@ -9,11 +9,12 @@ https://www.linkedin.com/in/rom%C3%A1n-raffo-687880298/
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Portfolio Román Rafo
+## Portfolio Román Raffo
 
 - Website about me.
 
 - Project made with HTML, CSS and Bootstrap. 
 
--project carried out by **Román Raffo**. https://www.linkedin.com/in/rom%C3%A1n-raffo-687880298/
+-project carried out by **Román Raffo**. 
+https://www.linkedin.com/in/rom%C3%A1n-raffo-687880298/
 
