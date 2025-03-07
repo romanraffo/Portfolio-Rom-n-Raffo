@@ -268,10 +268,10 @@ html {
 }
 
 .img_sobremi {
-    min-width: 200px;
-    height: 200px;
+    min-width: 220px;
+    height: 280px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 85px;
     border: 2px solid rgb(168, 67, 191); /* Usa tu color principal en vez de negro */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra suave */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
