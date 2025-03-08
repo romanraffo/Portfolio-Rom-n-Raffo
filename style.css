@@ -332,15 +332,22 @@ html {
 }
 
 .img__skills{
-    max-height: 90px;
+    max-height: 93px;
     padding-right: 11px;
     padding-left: 11px;
 }
 
 .img__skills2{
-    max-height: 70px;
+    max-height: 88px;
     padding-right: 11px;
     padding-left: 11px;
+    padding-bottom: 8px;
+}
+
+.img__skills3{
+    max-height: 73px;
+    padding-right: 19px;
+    padding-left: 19px;
 }
 
 .div6__hero2{
@@ -357,8 +364,8 @@ html {
 .div__skills__separador {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Espacio entre cajitas */
-    justify-content: center; /* Centra los elementos */
+    gap: 10px; 
+    justify-content: center; 
     margin-top: 15px;
 }
 
@@ -411,7 +418,7 @@ html {
 
 .caja {
     width: 270px;
-    height: 140px;
+    height: 120px;
     background: linear-gradient(135deg, rgb(207, 195, 188)) 30%, #e26259 100%;
     border-radius: 20px;
     display: flex;
@@ -514,4 +521,92 @@ html {
 
 .flag {
     width: 35px;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Media queries */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section__hero6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__hero7 {
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+    }
 }
